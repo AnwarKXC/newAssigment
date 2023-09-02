@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Roboto:wght@100;300;400;500&display=swap');
+
+@layer base {
+
+}
+:root {
+    --sidebar-width: 106px;
+    --green-color: #27b40c;
+    --red-color: #ff6a6a;
+}
+
+body {
+    /* background-color: #f7f8f9; */
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    min-height: 100%;
+    background-color: #f7f8f9;
+}
+
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+select {
+    font-size: 20px;
+}
+option {
+    height: 15px;
+}
